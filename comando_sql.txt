@@ -1,0 +1,7 @@
+create table pizza(codigo int, nome varchar(30), valor decimal(5,2));
+
+create table if not exists pizza(
+    codigo int,
+    nome varchar(30),
+    valor decimal(5,2)
+);
